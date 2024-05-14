@@ -292,9 +292,13 @@ export function getMessageImages(message: RequestMessage): string[] {
 }
 
 export function isVisionModel(model: string) {
-  return (
-    // model.startsWith("gpt-4-vision") ||
-    // model.startsWith("gemini-pro-vision") ||
-    model.includes("vision")
-  );
+  const visionKeywords = [
+    "vision",
+    "claude-3",
+    "gemini-1.5-pro",
+    "gpt-4-turbo",
+    "gpt-4o",
+  ];
+
+  return visionKeywords.some((keyword) => model.includes(keyword));
 }
