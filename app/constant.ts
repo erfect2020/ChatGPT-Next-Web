@@ -486,39 +486,29 @@ const openaiModels = [
   "o3-mini",
 ];
 
-const googleModels = [
-];
+const googleModels = ["gemini-2.0-pro-exp"];
 
-const anthropicModels = [
-];
+const anthropicModels = [];
 
-const baiduModels = [
-];
+const baiduModels = [];
 
-const bytedanceModels = [
-];
+const bytedanceModels = [];
 
-const alibabaModes = [
-];
+const alibabaModes = [];
 
-const tencentModels = [
-];
+const tencentModels = [];
 
 const moonshotModes = [];
 
-const iflytekModels = [
-];
+const iflytekModels = [];
 
 const deepseekModels = ["deepseek-chat", "deepseek-coder", "deepseek-reasoner"];
 
-const xAIModes = [
-];
+const xAIModes = [];
 
-const chatglmModels = [
-];
+const chatglmModels = [];
 
-const siliconflowModels = [
-];
+const siliconflowModels = [];
 
 let seq = 1000; // 内置的模型序号生成器从1000开始
 export const DEFAULT_MODELS = [
