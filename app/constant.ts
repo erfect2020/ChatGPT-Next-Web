@@ -471,25 +471,15 @@ export const EXCLUDE_VISION_MODEL_REGEXES = [/claude-3-5-haiku-20241022/];
 const openaiModels = [
   // As of July 2024, gpt-4o-mini should be used in place of gpt-3.5-turbo,
   // as it is cheaper, more capable, multimodal, and just as fast. gpt-3.5-turbo is still available for use in the API.
-  "gpt-3.5-turbo",
-  "gpt-3.5-turbo-1106",
-  "gpt-3.5-turbo-0125",
   "gpt-4",
-  "gpt-4-0613",
-  "gpt-4-32k",
-  "gpt-4-32k-0613",
   "gpt-4-turbo",
   "gpt-4-turbo-preview",
   "gpt-4o",
-  "gpt-4o-2024-05-13",
-  "gpt-4o-2024-08-06",
   "gpt-4o-2024-11-20",
   "chatgpt-4o-latest",
   "gpt-4o-mini",
   "gpt-4o-mini-2024-07-18",
   "gpt-4-vision-preview",
-  "gpt-4-turbo-2024-04-09",
-  "gpt-4-1106-preview",
   "dall-e-3",
   "o1-mini",
   "o1-preview",
@@ -497,51 +487,37 @@ const openaiModels = [
 ];
 
 const googleModels = [
-  "gemini-2.0-flash-thinking-exp-01-21",
-  "gemini-2.0-pro-exp",
-  "gemini-2.0-pro-exp-02-05",
 ];
 
 const anthropicModels = [
-  "claude-3-7-sonnet-latest",
 ];
 
 const baiduModels = [
-  "ernie-4.0-turbo-8k",
 ];
 
 const bytedanceModels = [
-  "Doubao-lite-4k",
 ];
 
 const alibabaModes = [
-  "qwen-turbo",
 ];
 
 const tencentModels = [
-  "hunyuan-pro",
 ];
 
-const moonshotModes = ["moonshot-v1-8k", "moonshot-v1-32k", "moonshot-v1-128k"];
+const moonshotModes = [];
 
 const iflytekModels = [
-  "4.0Ultra",
 ];
 
 const deepseekModels = ["deepseek-chat", "deepseek-coder", "deepseek-reasoner"];
 
 const xAIModes = [
-  "grok-beta",
 ];
 
 const chatglmModels = [
-  "glm-4-plus",
-  "glm-4v-flash", // free
-  "cogview-3-flash", // free
 ];
 
 const siliconflowModels = [
-  "Qwen/Qwen2.5-7B-Instruct",
 ];
 
 let seq = 1000; // 内置的模型序号生成器从1000开始
