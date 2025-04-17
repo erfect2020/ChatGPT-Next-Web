@@ -412,6 +412,9 @@ export const KnowledgeCutOffDate: Record<string, string> = {
   "gpt-4-turbo": "2023-12",
   "gpt-4-turbo-2024-04-09": "2023-12",
   "gpt-4-turbo-preview": "2023-12",
+  "gpt-4.1": "2024-06",
+  "gpt-4.1-mini": "2024-06",
+  "gpt-4.1-nano": "2024-06",
   "gpt-4o": "2023-10",
   "gpt-4o-2024-05-13": "2023-10",
   "gpt-4o-2024-08-06": "2023-10",
@@ -481,6 +484,9 @@ const openaiModels = [
   "o1-mini",
   "o1-preview",
   "o3-mini",
+  "gpt-4.1-nano",
+  "gpt-4.1-mini",
+  "gpt-4.1",
 ];
 
 const googleModels = ["gemini-2.0-pro-exp"];
