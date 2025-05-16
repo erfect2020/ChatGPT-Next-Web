@@ -484,6 +484,7 @@ const openaiModels = [
   "o1-mini",
   "o1-preview",
   "o3-mini",
+  "o1-pro",
   "gpt-4.1-nano",
   "gpt-4.1-mini",
   "gpt-4.1",
